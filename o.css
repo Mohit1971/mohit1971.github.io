@@ -1,0 +1,83 @@
+*{
+margin:0px;
+padding: 0px;
+box-sizing:border-box;          /* this is because so that right side bar get automatically size*/
+
+}
+
+
+
+.wrapper{
+  margin: 5px 100px;
+}
+.header{
+background-color: white;
+height:150px;
+  text-align: center;
+font-size: 50px;
+color:#1E92De;
+}
+
+.main-nav > ul
+{
+background-color:black;
+height:70;
+list-style: none;
+color:white
+}
+.main-nav > ul > li{
+
+  display: inline-block;
+  padding:5px;
+}
+
+.container{
+
+}
+.content{
+background-color: white;
+min-height:500px;
+float:left;                                 /*this is use so that this content block go left side*/
+width: 80%;
+padding:5px;
+
+
+}
+.content >img{
+  display: block;
+  margin-left: 10px;
+
+}
+.rigth-sidebar{
+
+background-color: white;
+border-left: solid #B3B3B3 1px;
+min-height: 500px;
+width:20%;
+float:right;
+padding:20px;                                                          /*this is use so that this content block go right side*/
+}
+.rigth-sidebar > h3
+{
+font-family: cursive;
+background-color: #1E92De;
+height:30px;
+text-align: center;
+
+}
+.container::after                                  /*this is use so  that when we apply float then they all get overlap and by using after and
+                                                                          all other tag include may help in these*/
+{
+  content:"";
+  display:block;
+  clear:both;
+*zoom:1;
+}
+
+.footer{
+  background-color: black;
+  height:70px;
+  text-align: center;
+  color:white;
+  padding:20px;
+}
