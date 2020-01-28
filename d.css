@@ -1,0 +1,172 @@
+
+*{
+
+  margin:0px;
+  padding:0px;
+box-sizing: border-box;
+
+}
+
+body{
+background-color: #e3e3e3;
+
+}
+nav{
+  background-color: #089de3;
+height: 50px;
+}
+nav > a {
+  color:white;
+text-decoration: none;
+font-size:30px;
+padding: 5px 10px 10px 10px;
+float:left;
+}
+.main-banner{
+
+  height:500px;
+}
+.main-banner > img{
+
+
+width:100%;
+height:500px;
+object-fit:cover;
+padding: 20px;
+}
+.navbar > ul
+{
+list-style: none;
+float:right;
+}
+.navbar > ul>li
+{
+display: inline-block;
+padding:10px;
+
+
+}
+.navbar>ul>li>a
+{
+text-decoration: none;
+color:white;
+}
+.navbar>ul:last-child
+{
+  padding-right:50px;
+}
+
+.navbar> ul >li:hover
+{
+  background-color:black;
+}
+nav::after{
+  content:"";
+display: block;
+  clear:both;
+  *zoom:1;
+}
+
+.service
+{
+  background-color: white;
+
+
+}
+
+.service>h1
+{
+  font-size:30px;
+  text-align: center;
+  margin: 10px;
+  padding-top: 20px;
+}
+.col{
+  width:300px;
+  text-align: center;
+  margin-left:130px;
+  border-right: solid #bebebe 1px;
+  padding-bottom:40px;
+  float:left;
+}
+.service::after{
+  content:"";
+display: block;
+  clear:both;
+  *zoom:1;
+}
+.col:last-child
+{
+  border-right: none;
+}
+.col>h3
+{
+  color:grey;
+  padding:10px;
+}
+.col>a
+{
+  background-color: blue;
+  height:20px;
+  color:white;
+  text-decoration: none;
+  font-size: 17px;
+  border: solid white 2px;
+  border-radius:10px;
+padding: 5px 10px;
+}
+.col>a:hover
+{
+  background-color: black;
+}
+.col>p
+{
+  padding-bottom: 10px;
+}
+
+.customer{
+  background-color: #089de3;
+  text-align: center;
+  padding: 20px;
+
+}
+.customer>h1
+{
+  text-align: center;
+color:white;
+padding-bottom: 10px;
+}
+.customer > img
+{
+border:solid 2px black;
+width:100px;
+height: 100px;
+border-radius:100px;
+object-fit: cover;
+}
+
+.customer>p
+{
+  font-size: 18px;
+  margin: 10px 200px;
+  padding-bottom: 20px;
+  line-height: 20px;
+
+}
+.customer>a
+{
+  color:white;
+  font-size: 20px;
+}
+
+.customer>a:hover
+{
+  background-color: black;
+}
+.footer
+{
+  text-align: center;
+  padding: 20px;
+  font-size: 15px;
+
+}
